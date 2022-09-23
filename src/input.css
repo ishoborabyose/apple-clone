@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "apple";
+    src: url(./assets/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+
+.apple--white{
+    @apply bg-[white] text-[black] pt-[65px];
+}
